@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Ubuntu+Mono&display=swap');
+
+
+header{
+  height: 70px;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+nav ul li{
+  margin: 0 15px;
+}
+
+.welcome{
+  margin: 50px 0;
+}
+
+.line-1{
+  font-family: 'Anonymous Pro', monospace;
+  position: relative;
+  top: 50%;  
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+.anim-typewriter{
+animation: typewriter 6s steps(44) 2s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+.anim-typewriter-short{
+animation: typewriter-short 6s steps(44) 2s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 41em;}
+}
+@keyframes typewriter-short{
+from{width: 0;}
+to{width: 21em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(0, 0, 0, 0.75);}
+to{border-right-color: transparent;}
+}
+
+.glow {
+    font-size: 50px;
+    color: rgb(213 55 55);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: 'Pushster', cursive;
+    }
+    @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px yellow, 0 0 40px yellow, 0 0 50px yellow, 0 0 60px yellow, 0 0 70px yellow;
+        }
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px yellowgreen, 0 0 40px yellowgreen, 0 0 50px yellowgreen, 0 0 60px yellowgreen, 0 0 70px yellowgreen, 0 0 80px yellowgreen;
+        }
+      }
+
+.topic-buttons{
+  display: flex;
+  justify-content: center;
+}
+.topic-buttons button{
+  font-size: 3vh;
+  width: 20vw;
+  height: 10vh;
+  margin: 15px;
+  font-family: 'Merriweather', serif;
+}
+
+.speech-heading{
+  font-family: 'Bebas Neue', cursive; font-size: 75px;
+}
+
+.speech-topic{
+  font-family: 'PT Sans Narrow', sans-serif; 
+  font-size: 40px;
+}
+
+.speech{
+  text-align: left;
+  color: black;
+  font-size: 25px;
+  font-family: 'Happy Monkey', cursive;
+  width: 80%; 
+  height: 200vh; 
+  border-radius: 21px 21px 0 0;
+}
+
+.line-graph{
+  width: 100%; 
+  height: 120vh; 
+  border-radius: 21px 21px 0 0;
+}
+
+.line-graph img{
+  border: 2px white solid;
+}
+
+.pie-chart{
+  width: 80%; 
+  height: 200vh; 
+  border-radius: 21px 21px 0 0;
+}
+
+.pie-chart img{
+  border: 2px white solid;
+  border-radius: 10%;
+  margin: 50px;
+}
+
+.about{
+  text-align: center;
+  color: black;
+  font-size: 38px;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%; 
+  height: 200vh; 
+  border-radius: 21px 21px 0 0;
+}
+
+footer{
+  width: 100%;
+  /* position: sticky;
+  z-index: 2; */
+  display: flex;
+  bottom: 0;
+  font-size: 1.5vw;
+  text-align: center;
+}      

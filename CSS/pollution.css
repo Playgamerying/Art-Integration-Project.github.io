@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+.pollution{
+    margin: 100px; 
+    width: 1150px;
+}
+
+.pollution h1{
+    font-size: 70px; 
+    text-align: center;
+}
+
+.pollution h2{
+    font-size: 45px; 
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #950000
+}
+.pollution h3{
+    font-size: 40px; 
+    font-family: 'Anton', sans-serif;
+    text-decoration: underline;
+    color: #ff8100;
+}
+
+.pollution h4{
+    font-weight: bold;
+    font-size: 35px; 
+    font-family: 'Ubuntu Mono', monospace;
+    color: #18ab79
+}
+.pollution h6{
+    font-size: 32px; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.pollution dl{
+    font-size: 25px; 
+    font-family: 'Kanit', sans-serif;
+}
+
+.pollution p{
+    font-size: 30px; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.pollution dd{
+    font-size: 30px; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+img{
+    margin: 15px;
+    border-radius: 15%;
+    border: black 2px solid;
+    box-shadow: 5px 5px 5px black;
+}
+.pollution #prevention {
+    font-size: 30px; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.pollution #prevention ul{
+    list-style: circle;
+    font-size: 30px; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}

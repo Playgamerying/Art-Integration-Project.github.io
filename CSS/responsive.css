@@ -1,0 +1,23 @@
+.short{
+    display: none;
+}
+@media screen and (max-width:500px){
+    .short{
+        display: flex;
+        font-size: 15px;
+        align-self:center;
+    }
+    .long{
+        display: none;
+    }
+}
+@media screen and (max-width:1200px){
+    .topic-buttons button{
+        font-size: 2vh;
+    }
+}
+@media screen and (max-width:500px){
+    .topic-buttons button{
+        font-size: 1vh;
+    }
+}

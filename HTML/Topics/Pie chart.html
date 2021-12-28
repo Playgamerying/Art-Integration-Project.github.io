@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
+    <link rel="stylesheet" href="/JS/typewriter effect.js">
+    <title>Art Integration Project | Pie Chart</title>
+</head>
+
+<body oncontextmenu="return false;">
+
+    <header>
+        <nav class="navbar navbar-dark bg-primary navbar-expand-lg shadow-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><b>Art Integration Project</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div style="margin: 0 30px;" class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/HTML/about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Topics
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="/HTML/Topics/Pollution.html">Pollution</a></li>
+                                <li><a class="dropdown-item" href="/HTML/Topics/Assembly speech.html">Assembly
+                                        Speech</a></li>
+                                <li><a class="dropdown-item active" href="/HTML/Topics/Pie chart.html">Pie Chart</a></li>
+                                <li><a class="dropdown-item" href="/HTML/Topics/Line graph.html">Line Graph</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/HTML/feedback.html">Feedback</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="welcome">
+            <p class="line-1 anim-typewriter long">Pie Chart on Main Sources of Pollution</p>
+            <p class="line-1 anim-typewriter-short short">Pie Chart on Main <br> Sources of Pollution</p>
+        </div>
+
+        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 p-3">
+              <h2 class="display-5"  style="font-family: 'Bebas Neue', cursive; font-size: 75px;">Pie Chart</h2>
+              <p class="lead" style="font-family: 'PT Sans Narrow', sans-serif; font-size: 40px;">Main Sources of Pollution</p>
+            </div>
+            <div class="bg-dark shadow-sm mx-auto pie-chart">
+            <img src="/Components/Pollutants.png" alt="" width=900px;>
+    
+            <img data-aos="fade-right" src="/Components/source.png" alt="" width=900px;>
+            </div>
+          </div>
+
+          <div class="topic-buttons">
+            <a href="/HTML/Topics/Pollution.html"> <button type="button" class="btn btn-info">Pollution</button></a>
+            <a href="/HTML/Topics/Assembly speech.html"><button type="button" class="btn btn-warning">Assembly
+                Speech</button></a>
+            <a href="/HTML/Topics/Line graph.html"><button type="button" class="btn btn-secondary">Line Graph</button></a>
+          </div>
+
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">Copyright&copy;2022. All rights reserved&reg;</span>
+        </div>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+AOS.init({
+        offset: 400, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000 // values from 0 to 3000, with step 50ms
+      });
+</script>
+
+</html>
