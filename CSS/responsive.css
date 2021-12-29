@@ -1,7 +1,45 @@
 .short{
     display: none;
 }
-@media screen and (max-width:500px){
+    @media screen and (max-width:1200px){
+        .short{
+            display: flex;
+            font-size: 30px;
+            align-self:center;
+        }
+        .long{
+            display: none;
+        }
+        .speech{
+            height: 250vh;
+            font-size: 20px;
+        }
+    }
+    @media screen and (max-width:1000px){
+        .pie-chart img{
+            width: 20rem;
+        }
+        .line-graph img{
+            width: 20rem;
+        }
+    }
+    @media screen and (max-width:535px){
+        .pie-chart img{
+            width: 12rem;
+        }
+        .line-graph img{
+            width: 12rem;
+        }
+    }
+    @media screen and (max-width:600px){
+        .speech{
+            height: 200vh;
+            font-size: 3vw;
+        }
+        .speech audio{
+        }
+    }
+@media screen and (max-width:650px){
     .short{
         display: flex;
         font-size: 15px;
@@ -11,13 +49,46 @@
         display: none;
     }
 }
-@media screen and (max-width:1200px){
+    @media screen and (max-width:600px){
     .topic-buttons button{
         font-size: 2vh;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:450px){
+    .short{
+        display: flex;
+        font-size: 10px;
+        align-self:center;
+    }
+    .long{
+        display: none;
+    }
+    .about{
+        height: 140vw; 
+    }
+    .title{
+        font-size: 35px;
+    }
+    .subtitle{
+        font-size: 25px;
+    }
+}
+    @media screen and (max-width:425px){
     .topic-buttons button{
         font-size: 1vh;
+        width: 15vw;
+        height: 6vh;
+    }
+}
+    @media screen and (max-width:330px){
+    .topic-buttons button{
+        font-size: 1vh;
+        width: 20vw;
+        height: 5vh;
+    }
+}
+    @media screen and (max-width:285px){
+    .welcome{
+        font-size: 15px;
     }
 }

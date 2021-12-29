@@ -1,0 +1,1 @@
+alert("Please view the website in computer, laptop or a desktop for getting a better experience?");
